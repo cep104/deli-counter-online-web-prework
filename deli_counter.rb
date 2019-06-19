@@ -1,6 +1,9 @@
 def line(number)
+ line_length = []
   if number.length == 0 
-    "The line is currently empty."
+    puts = "The line is currently empty."
   else 
-    index = 0
-    index <
+   number.each.with_index(1) do |index|
+     line_length.push("#{index}")
+   end
+ end
