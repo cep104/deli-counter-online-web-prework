@@ -3,6 +3,7 @@ def line(number)
   index = 1
   if number >1 
  puts "The line is currently empty."
+ end
 else
   number.each do |index|
      katz_deli_line.push("#{index +=1}")
