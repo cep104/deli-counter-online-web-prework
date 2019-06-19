@@ -4,7 +4,7 @@ def line(number)
   if number < 1 
  puts "The line is currently empty."
 else
-  number.each do |index|
+  number.each_with_index do |index|
      katz_deli_line.push("#{index +=1}")
    
 end
