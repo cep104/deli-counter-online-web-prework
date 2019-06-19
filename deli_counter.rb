@@ -2,7 +2,7 @@ katz_deli = []
 
 def line(name)
   line_number = []
-  if number.length == 0
+  if name.length == 0
     puts "The line is currently empty."
   else
      name.each.with_index(1) do |name, index|
