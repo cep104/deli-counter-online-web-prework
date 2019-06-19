@@ -1,4 +1,4 @@
-def line(place)
+def line(katz_deli)
   katz_deli = []
 if place == 0
   puts "The line is currently empty."
