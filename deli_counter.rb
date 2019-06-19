@@ -1,11 +1,11 @@
-def line(x)
-  line_array = []
-  if x.length == 0
+def line(number)
+  line_number = []
+  if number.length == 0
     puts "The line is currently empty."
   else
-    x.each.with_index(1) do |name, index|
-      line_array.push("#{index}. #{name}")
+    number.each.with_index(1) do |name, index|
+      line_number.push("#{index}, #{name}")
     end
-    puts "The line is currently: #{line_array.join(" ")}"
+    puts "The line is currently: #{line_number.join(" ")}"
   end
 end
