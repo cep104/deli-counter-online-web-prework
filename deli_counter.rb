@@ -19,7 +19,7 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(line)
-  if line == 0
+  if line.empty?
     puts puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{line[0]}."
