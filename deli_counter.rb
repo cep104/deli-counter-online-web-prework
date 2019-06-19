@@ -1,4 +1,4 @@
-def line(number)
+def line(katz_deli_line, number)
   katz_deli_line = []
   index = 1
   if number < 1 
