@@ -1,3 +1,4 @@
+katz_deli = []
 def line(number)
   line_number = []
   if number.length == 0
