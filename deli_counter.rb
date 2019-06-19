@@ -7,3 +7,4 @@ def line(number)
      line_length.push("#{index}")
    end
  end
+ end
