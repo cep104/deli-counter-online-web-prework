@@ -1,6 +1,6 @@
-def line(place_in_line)
+def line(katz_deli)
   katz_deli = []
-if place == 0
+if katz_deli == 0
   "The line is currently empty."
 else
    katz_deli
