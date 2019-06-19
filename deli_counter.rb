@@ -1,8 +1,9 @@
 def line()
   katz_deli = []
-  if katz_deli >= 1
-    puts "#{item += 1}"
+if katz_deli == 0
+  puts 
 else
-  puts "The line is currently empty."
+   katz_deli >= 1
+    puts "#{item += 1}"
 end
 end
